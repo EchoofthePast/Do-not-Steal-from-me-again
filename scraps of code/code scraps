@@ -1,0 +1,50 @@
+	button1 := r.Form["button1"] //r.Form uses the name tag to identify not the id tag
+	fmt.Println("Data from server button ", button1)
+
+	for index := range button1 {
+		if button1[index] != "" {
+			if button1[index] == "button1" {
+				fmt.Println("Its a kind of magic")
+			}
+		}
+
+	}
+
+	button2 := r.Form["button2"]
+	fmt.Println("Data from frontEnd:", button2)
+	for index := range button2 {
+		if button2[index] != "" {
+			if button2[index] == "button2" {
+				
+				
+				fmt.Println("I have become something more than normal")
+			}
+		}
+		
+	}
+
+
+
+
+
+
+
+
+					}
+				if index != 0{
+
+					if letters[index] == " " {
+
+					fmt.Println("Search Word 2 ", index, letters[index])
+					i++
+					length2 = index
+						for length2 = range letters{
+							if letters[index] == " "{
+								count = index
+							}
+						}
+						secondword = memory - (length1 + count)
+				fmt.Println("The Second Word: ", secondword)
+
+
+				}

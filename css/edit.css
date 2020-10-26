@@ -1,0 +1,332 @@
+
+body{
+     background:blue;
+}
+
+.page{
+    position:Relative;
+    border:solid;
+    background:white;
+    width:1250px;
+    height:850px;
+    left: 200px;
+    top: 100px;
+}
+
+.title{
+    position:Relative;
+    border:solid;
+    width: 700px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}
+
+.profile{
+    text-align: center;
+    position:Relative;
+    border:solid;
+    width:300px;
+    height:450px;
+    top:37px;
+    left:800px;
+    padding: 5;
+    margin: 5;
+}
+
+.home{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:-50px;
+  left:200px;
+  margin:3px;
+  width:150px;
+  height:50px;
+}
+.info{
+  text-indent:15px;
+  position:relative;
+  border:solid;
+  top:-529px;
+  left:100px;
+  height:800px;
+  width:600px;
+  background-color: white; 
+}
+
+.upload{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:rgb(251, 2, 2);
+  left:0px;
+  top:25px;
+  height:25px;
+  width:200px;
+
+}
+
+
+.search{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:rgb(251, 2, 2);
+  left:900px;
+  top:50px;
+  height:150px;
+  width:200px;
+
+}
+
+
+.info0{
+  position:relative;
+  border:solid;
+  top:-529px;
+  left:100px;
+  height:300px;
+  width:600px;
+  background-color: white; 
+
+}
+.info1{
+  position:relative;
+  border:solid;
+  top:-529px;
+  left:100px;
+  height:300px;
+  width:600px;
+  background-color: white; 
+
+}
+
+.p{
+  color:red;
+}
+.patient{
+  position:relative;
+  background-color:white;
+  border:solid;
+  left:100px;
+  top:-1350px;
+  height:800px;
+  width:600px;
+  display: none;
+}
+
+.add0{
+  position:relative;
+  background-color: white;
+  border:solid;
+  left:100px;
+  top:-500px;
+  height:300px;
+  width:600px;
+  background-color: white; 
+}
+
+.address{
+  position:relative;
+  background-color: white;
+  border:solid;
+  left:100px;
+  top:-500px;
+  height:300px;
+  width:600px;
+  background-color: white; 
+}
+
+.add1{
+  position:relative;
+  border:solid;
+  left:100px;
+  top:-500px;
+  height:300px;
+  width:600px;
+  background-color: white; 
+}
+
+
+.image{
+    position:Relative;
+    border:solid;
+    left:25px;
+    width:250px;
+}
+
+.input{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:-100px;
+  left:20px;
+  margin:3px;
+  width:150px;
+  height:50px;
+}
+
+.button{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:-10px;
+  left:20px;
+  margin:3px;
+  width:125px;
+  height:50px;
+}
+
+.searchbutton{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:10px;
+  left:0px;
+  margin:3px;
+  width:125px;
+  height:50px;
+  text-align:center;
+}
+
+.innerbutton0{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:-28;
+  left:200px;
+  margin:3px;
+  width:125px;
+  height:50px;
+}
+
+.innerbutton1{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:0px;
+  left:200px;
+  margin:3px;
+  width:125px;
+  height:50px;
+}
+
+.innerbutton2{
+  position:relative;
+  border:solid;
+  text-align: center;
+  background-color:lightblue;
+  top:0px;
+  left:200px;
+  margin:3px;
+  width:125px;
+  height:50px;
+}
+
+
+.fname{
+  position:relative;
+  border:solid;
+  left:100px;
+  top:50px;
+  height:100px;
+  width:200px;
+
+}
+
+.sname{
+  position:relative;
+  border:solid;
+  left:100px;
+  top:50px;
+  height:100px;
+  width:200px;
+
+}
+
+.details{
+  position:relative;
+  border:solid;
+  left:100px;
+  top:50px;
+  height:100px;
+  width:200px;
+
+}
+
+.money{
+  position:relative;
+  border:solid;
+  left:100px;
+  top:50px;
+  height:100px;
+  width:200px;
+
+}
+
+.copyright_notice{
+    position:Relative;
+    border:solid;
+    top:72px;
+    left:750px;
+    width:350px;
+    align-content: center;
+}
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  left:11 00px;
+  top: -600px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;} 

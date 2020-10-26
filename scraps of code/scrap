@@ -1,0 +1,7 @@
+		data := &dataStruct{
+
+			Name:       namestring,
+			Surname:    snamestring,
+			Info:       infostring,
+			Medication: medicationstring,
+		}

@@ -1,0 +1,14 @@
+//
+func inputHandling(r *http.Request) (data []string) {
+
+	r.ParseForm()
+
+	search := r.Form["fname"] //
+
+	fmt.Println("Search ", search)
+
+	data = search
+
+	return data
+
+}
